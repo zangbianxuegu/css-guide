@@ -29,18 +29,20 @@
 
 ### 例子
 
-  // Example
-  .styleguide-format,
-  .styleguide-format-multi
-    color: #000
-    background-color: rgba(0, 0, 0, .5)
-    border: 1px solid #0f0
-    margin: 0 .5em 10px 20px
-    padding: 0
+``` CSS
+ // Example
+ .styleguide-format,
+ .styleguide-format-multi
+   color: #000
+   background-color: rgba(0, 0, 0, .5)
+   border: 1px solid #0f0
+   margin: 0 .5em 10px 20px
+   padding: 0
 
-  .another-selector
-    display: block
-    content: '\2193'
+ .another-selector
+   display: block
+   content: '\2193'
+```
 
 
 ## BEM
