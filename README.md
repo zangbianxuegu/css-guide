@@ -35,11 +35,13 @@
  // Example
  .styleguide-format,
  .styleguide-format-multi
-   color: #000
-   background-color: rgba(0, 0, 0, .5)
-   border: 1px solid #0f0
    margin: 0 .5em 10px 20px
    padding: 0
+   border: 1px solid #0f0
+   color: #000
+   background-color: rgba(0, 0, 0, .5)
+   font-size: 14px
+   font-weight: 400
 
  .another-selector
    display: block
