@@ -12,8 +12,17 @@
 
 ## SASS
 
+### 选择器
+
+- 使用小写字母命名，避免驼峰式命名
+- 连字号连接，不使用下划线
+- 避免使用数字或连字号开头命名
+- 使用 BEM 方式命名
+
+
 ### 语法格式
 
+- 样式规则之间空行
 - 使用两个空格缩进
 - 使用 // 进行注释，注释单独一行
 - 给特殊代码详细注释，例如：z-index，兼容性 hacks
@@ -23,11 +32,12 @@
 - 使用缩写，但避免不必要的缩写，例如：margin: 0 0 20px;
 - 字体单位使用 px
 - font-weight 使用数字：400、700
-- 避免使用多余的单位，例如：margin: 0em; 而不是 margin: 0;
+- 避免使用多余的单位，例如：margin: 0; 而不是 margin: 0em;
 - 避免使用多余的 0，例如：margin: .5em; 而不是 margin: 0.5em;
 - 属性值使用单引号
 - 嵌套尽量不超过三层（BEM 命名可避免）
 - 不使用 ID 选择器
+- js 事件绑定单独添加选择器，以 .js- 开头
 
 ### 例子
 
@@ -50,6 +60,12 @@
 
 
 ## BEM
+
+Block-Element-Modifier
+
+- CSS Trick's BEM 101 (https://css-tricks.com/bem-101/)
+- Harry Roberts' introduction to BEM (http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
+
 
 ## Mixin
 
